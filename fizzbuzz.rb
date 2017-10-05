@@ -1,10 +1,10 @@
 def fizzbuzz(n)
   if n % 3 == 0
     if n % 5 == 0
-      string = "FizzBuzz"
-    else string = "Fizz"
+      return "FizzBuzz"
+    else return = "Fizz"
     end
-  elseif n % 5 == 0
-    string "Buzz"
+  else if n % 5 == 0
+    return "Buzz"
   end
 end
